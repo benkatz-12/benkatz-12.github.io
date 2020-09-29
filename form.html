@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <!--INLCUDED LIBRARIES-->
+            <!-- Latest compiled and minified CSS -->
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <!-- Popper JS -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+            <!-- Latest compiled JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        </head>
+         <body>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./mypage_bootstrap.html">Home</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./projects.html">Projects</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="./form.html">Form</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-md-auto">
+                    <li>
+                        <a href="https://github.com/benkatz-12">
+                            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="Git" style="width: 50px;height: 50px;">
+                        </a>
+                    </li>
+                </ul>
+            </nav> 
+            <form>
+                <div class="container">
+                    <div class="col-2"></div>
+                    <div class="col-8" >
+                        <h1>Add New Interest</h1>
+                        <div class="form-group">
+                            <label for="interestName">Interest Name</label>
+                            <input class="form-control" type="text" id="interestName" placeholder="Your interest">
+                        </div>
+                        <div class="form-group">
+                            <label for="interestText">Text About Interest</label>
+                            <textarea class="form-control" id="interestText" rows=5></textarea>
+                        </div>
+                        <div class="form-row">
+                            <div class="col">
+                                <label for="inputFile">Upload Local Image:</label>
+                                <input type="file" class="form-control-file" id="inputFile">
+                            </div>
+                            <div class="col">
+                                <label for="dropdown">Select # Tweets to Display:</label>
+                                <select class="form-control" id="dropdown">
+                                    <option >1</option>
+                                    <option >2</option>
+                                    <option >3</option>
+                                    <option >4</option>
+                                    <option >5</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inlineRadio1">On a scale of 1-5, how interested in this are you?</label>
+                            <br>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label">1</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">2</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                <label class="form-check-label" for="inlineRadio3">3</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                <label class="form-check-label" for="inlineRadio4">4</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+                                <label class="form-check-label" for="inlineRadio5">5</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Login to Finish Submitting</label>
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" id="username" class="form-control" placeholder="Username">
+                                </div>
+                                <div class="col">
+                                    <input type="password" id="password" class="form-control" placeholder="Password">
+                                </div>
+                            </div>
+                        </div>
+                        <a href="./mypage_bootstrap.html">
+                            <button type="button" class="btn btn-primary">Submit</button>
+                        </a>
+                    </div>
+                    <div class="col-2"></div>
+                </div>
+            </form>
+        </body>
+    <html>
